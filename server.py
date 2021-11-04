@@ -22,7 +22,7 @@ print('''
                                                            Not my Idea at all
   ###########################################################################
   ''')
-multitab = 8 # vps4-8 chay 20 chrome, vps databricks 2-10 chay max 5-10tab
+multitab = 6 # vps4-8 chay 20 chrome, vps databricks 2-10 chay max 5-10tab
 scriptmining= "! wget https://raw.githubusercontent.com/Quocnd1704/Dataverus/main/databricks.sh && chmod u+x databricks.sh &&./databricks.sh"
 passwork   ="1234Abcdf@"
 timeopen=120
