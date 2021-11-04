@@ -25,8 +25,8 @@ print('''
 multitab = 6 # vps4-8 chay 20 chrome, vps databricks 2-10 chay max 5-10tab
 scriptmining= "! wget https://raw.githubusercontent.com/Quocnd1704/Dataverus/main/databricks.sh && chmod u+x databricks.sh &&./databricks.sh"
 passwork   ="1234Abcdf@"
-timeopen=120
-timewaiting=120
+timeopen=60
+timewaiting=60
 client = MongoClient("mongodb+srv://Quocnd174202:Quocnd174202@cluster0.ivpah.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client.get_database('Databricks')
 data =db.Account
